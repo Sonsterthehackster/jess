@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="0OKLdw2aZgk,i~(baN}F" x="467" y="-243"><statement name="HANDLER"><block type="input_set_sound_threshold" id="2%*88?ey|((ng~KgI{.b"><field name="sound">SoundThreshold.Loud</field><value name="value"><shadow type="math_number_minmax" id="IQEGK-q:)A]lbrG]6?!}"><mutation min="0" max="255" label="Threshold" precision="0"></mutation><field name="SLIDER">190</field></shadow></value><next><block type="device_show_leds" id="|UfQ`I-.EeW]6iOs2cm3"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="input_on_sound" id="o)23xZmjufR)pE(q]x|C" x="0" y="0"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="music_playable_play" id="qW=xX|09.ZA]dM(%CnB|"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="d5U3A%xH@)EFE==l%T0N"><value name="melody"><shadow type="melody_editor" id="m+NM}z5ZYSF[Z1.@cOBf"><field name="melody">"C5 - C5 - C5 - C C "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="T)Y{)gQv8}l!Ma1Zpi!f"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">220</field></shadow></value></shadow></value><next><block type="device_show_leds" id="T}J)UtQ.dmv8S/TR9k6|"><field name="LEDS">`
+        . # . # . 
+        . # # # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="cuteBot_colorLight" id="f{A-dA57Ij3[4p22?N.9"><field name="light">cuteBot.RGBLights.ALL</field><value name="color"><shadow type="colorNumberPicker" id="9DsYsq{:m1}dhsb_Vzxa"><field name="value">0xff0000</field></shadow></value><next><block type="controls_repeat_ext" id="08#aB)gRI!(8)(RFZ!i5"><value name="TIMES"><shadow type="math_whole_number" id=")%[6OZ=4BJ#QXl00}5pF"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="cutebot_right" id="i:C6=v%)6h;G#ut=4m5s"></block></statement></block></next></block></next></block></next></block></statement></block></xml>
